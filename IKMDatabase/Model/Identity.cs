@@ -7,7 +7,7 @@ using System.ComponentModel.Design;
 
 namespace IKMDatabase.Entities
 {
-    public class Identity
+    public class Identity : Model.Output
     {
         [Required]
         [Key]

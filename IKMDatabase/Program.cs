@@ -20,7 +20,7 @@ namespace IKMDatabase
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    
                 });
     }
 }

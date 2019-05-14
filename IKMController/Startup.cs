@@ -42,6 +42,7 @@ namespace IKMController
                 app.UseHsts();
             }
 
+            app.UseHttpsRedirection();
             app.UseRouting();
 
             app.UseAuthorization();
