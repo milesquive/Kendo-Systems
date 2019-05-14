@@ -9,7 +9,6 @@ namespace IKMDatabase.Entities
 {
     public class User : Identity
     {
-        [Required]
       
         public string userNumber { get; set; }
         public String name { get; set; }
